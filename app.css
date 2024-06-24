@@ -1,0 +1,64 @@
+body {
+    background-color: #0A3342;
+    background-image: url(mixologija-high-resolution-logo.svg);
+    min-height: 100%;
+
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    color: #FFFFFF;
+}
+
+p {
+    display: flex;
+    justify-content: center;
+    color: #FFFFFF;
+}
+
+.logo {
+    position: absolute;
+    top: 5px;
+    left: 1px;
+}
+
+.logo1 {
+    position: absolute;
+    top: 5px;
+    right: 1px;
+}
+
+.userinput {
+  display: flex;
+  justify-content: center;
+}
+
+.misao {
+    display: flex;
+  justify-content: center;
+}
+.dugme {
+    display: flex;
+  justify-content: center;
+}
+
+.button {
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #F62F63;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.button:hover {
+    background-color: #F62F63;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
