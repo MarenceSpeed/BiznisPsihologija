@@ -60,5 +60,16 @@ p {
     background-color: #F62F63;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
+/* Kod za html stranicu misaoDana.html je kucan odavde */
+.misaodana {
+    font-family: "Playwrite NG Modern", cursive;
+    font-size: 15px;
+}
+
+body#misaodana {
+    background-color: #575F51;
+}
+
+
 
 
