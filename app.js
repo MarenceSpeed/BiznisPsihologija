@@ -29,3 +29,16 @@ function displayInputs() {
 
     console.log("Displayed inputs:", answers);
 }
+
+document.getElementById('dugmemisao').addEventListener('click', function() {
+    // Create a new paragraph element
+    const newParagraph = document.createElement('p');
+    
+    // Add some text content to the new paragraph
+    newParagraph.textContent = 'This is a new paragraph.';
+    
+    // Append the new paragraph to the paragraph container
+    document.getElementById('paragraphContainer').appendChild(newParagraph);
+});
+
+
