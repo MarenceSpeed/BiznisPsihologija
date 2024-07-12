@@ -1,43 +1,41 @@
-body {
-    background-color: #0A3342;
-    background-image: url(mixologija-high-resolution-logo.svg);
-    min-height: 100%;
-
+body#naslovnastrana {
+  background-color: #0a3342;
+  background-image: url(mixologija-high-resolution-logo.svg);
+  min-height: 100%;
 }
 
 h1 {
-    display: flex;
-    justify-content: center;
-    color: #FFFFFF;
-    margin-top: 2em;
+  display: flex;
+  justify-content: center;
+  color: #ffffff;
+  margin-top: 2em;
 }
 @media (max-width: 600px) {
-    h1 {
-        text-align: center;
-        margin: 10px;
-        margin-top: 2em;
-    }
+  h1 {
+    text-align: center;
+    margin: 10px;
+    margin-top: 2em;
+  }
 }
 
 p {
-    display: flex;
-    justify-content: center;
-    color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  color: #ffffff;
 }
 
 .logo {
-    display: flex;
-    position: absolute;
-    top: 5px;
-    left: 1px;
-
+  display: flex;
+  position: absolute;
+  top: 5px;
+  left: 1px;
 }
 
 .logo1 {
-    display: flex;
-    position: absolute;
-    top: 5px;
-    right: 1px;
+  display: flex;
+  position: absolute;
+  top: 5px;
+  right: 1px;
 }
 
 .userinput {
@@ -46,73 +44,101 @@ p {
 }
 
 .misao {
-    display: flex;
+  display: flex;
   justify-content: center;
 }
 .dugme {
-    display: flex;
+  display: flex;
   justify-content: center;
 }
 
 .button {
-    display: inline-block;
-    padding: 15px 30px;
-    font-size: 16px;
-    color: #fff;
-    background-color: #F62F63;
-    border: none;
-    border-radius: 5px;
-    text-decoration: none;
-    text-align: center;
-    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  display: inline-block;
+  padding: 15px 30px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #f62f63;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  text-align: center;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
 }
 
 .button:hover {
-    background-color: #F62F63;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  background-color: #f62f63;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 /* Kod za html stranicu misaoDana.html je kucan odavde */
 
-.misao1 {
-    width: 300px;
-    height: 500px ;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 3px solid black; 
+.hidden {
+  width: 300px;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid black;
 }
 
 .misaoDana {
-    width: 1530px;  /* Set the desired width */
-    border: 3px solid black; /* Optional: Add a border */
-    font-family: "Playwrite NG Modern", cursive;
-    font-size: 15px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+  width: 1530px; /* Set the desired width */
+  border: 3px solid black; /* Optional: Add a border */
+  font-family: "Playwrite NG Modern", cursive;
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
 .dugmemisao {
-    width: 100px;
-            height: 100px;
-            border-radius: 50%;
-            border: 2px solid #000;
-            background-color: #4CAF50;
-            color: white;
-            text-align: center;
-            line-height: 50px; /* Ovo je da bi tekst bio centriran vertikalno */
-            cursor: pointer;
-            font-size: 16px;
-            outline: none;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 2px solid #000;
+  background-color: #4caf50;
+  color: white;
+  text-align: center;
+  line-height: 50px; /* Ovo je da bi tekst bio centriran vertikalno */
+  cursor: pointer;
+  font-size: 16px;
+  outline: none;
 }
+
+/* body#misaodana {
+  margin: 0;
+  height: 100%;
+  background-color: #575f51;
+}
+ */
+.content {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 20px 0;
+}
+
 
 body#misaodana {
-    margin: 0;
-    height: 100%;
-    background-color: #575F51;
+  background-color: #575f51;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
 }
 
+.container {
+  text-align: center;
+}
 
+#textDiv {
+  margin-bottom: 20px;
+  font-size: 20px;
+}
 
-
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
